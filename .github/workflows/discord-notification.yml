@@ -13,5 +13,5 @@ jobs:
     - name: Send Discord notification
       uses: appleboy/discord-action@master
       with:
-        webhook_url: ${{ secrets.https://discordapp.com/api/webhooks/1185217166287568987/yvuoG3mDUp8E9hLgNV4W8j2Md9mwZiOR1IQNflK3A9mvAeQ3okuOE0x_JSPgY-5o8A9B }}
+        webhook_url: ${{ secrets.DISCORD_WEBHOOK_URL }}
         message: 'New Pull Request created!'
